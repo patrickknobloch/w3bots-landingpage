@@ -10,7 +10,7 @@ if (rootElement) {
   root.render(
     <>    
    
-  <div className='relative z-20 bg-neutral-950'>
+  <div className='relative z-20 bg-neutral-900'>
 
     <App />
   </div>

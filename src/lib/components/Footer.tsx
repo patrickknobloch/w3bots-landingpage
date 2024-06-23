@@ -2,8 +2,7 @@ import React from 'react';
 
 const Footer: React.FC = () => {
   return (
-<footer className="  text-white relative z-30 overflow-hidden">
-<img className="w-full absolute top-0 left-0 z-10 opacity-15 md:opacity-5" src="./assets/dotpattern.svg" alt=""/>
+<footer className=" bg-neutral-900 text-white relative z-30 overflow-hidden">
 
     <div className="container px-12 py-12 max-w-screen-xl mx-auto relative md:h-screen flex flex-col gap-12 md:flex-row items-center">
         
