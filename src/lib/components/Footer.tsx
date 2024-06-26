@@ -8,10 +8,10 @@ const Footer: React.FC = () => {
         
         <div className="text-center flex flex-col gap-4">
             <h1 className="font-black text-3xl xl:text-8xl leading-snug relative z-30">
-            Discover now and earn yield with pool transfers
+            We build Dapps and Bots for your projects!
             </h1>
             <p className='mt-3 md:mt-12 text-base xl:text-xl relative opacity-60 z-30'>
-            Invest with a single asset deposit and earn from pool transfer fees, easy and fast.
+            We build Dapps and Bots for your idea or company - contact us now!
             </p>
             <div className='flex flex-col xl:flex-row gap-3 md:gap-8 mx-auto w-fit mt-6 md:mt-12 relative z-30'>
             <button className='py-3 px-6 text-base font-bold bg-white text-neutral-800 rounded-xl'>Open on WebApp</button>

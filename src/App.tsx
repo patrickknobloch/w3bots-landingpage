@@ -13,7 +13,7 @@ function App() {
       <div className='w-full h-screen fixed z-0 top-0 left-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] '>
       </div>
 
-      <header className="bg-gradient-to-r from-lime-300 to-green-400 text-white text-center p-6 py-16 pt-32 md:p-20 xl:p-24 xl:py-48  rounded-3xl flex flex-col justify-center gap-12 mt-4 relative overflow-hidden bg-neutral-300/20 ">
+      <header className="bg-gradient-to-r from-lime-300 to-green-400 text-white text-center p-6 py-16 pt-32 md:p-20 xl:p-24 xl:py-48  rounded-3xl flex flex-col justify-center gap-12 mt-4 relative overflow-hidden bg-neutral-900/50 ">
       <img className="w-full h-screen absolute -top-48 md:-top-1/3 left-0 z-10 opacity-30 md:opacity-30" src="./assets/dotpattern.svg" alt=""/>
 
         <p className='uppercase text-center text-base md:text-xl xl:text-xl opacity-60 -mt-6 md:mt-0 relative z-30 text-neutral-900'>
@@ -49,8 +49,8 @@ function App() {
         </div>
 
         <div className='flex flex-col text-center w-full border rounded-xl border-neutral-800 py-12 bg-neutral-900'>
-          <div className='font-black text-6xl bg-gradient-to-r from-lime-300 to-green-400 bg-clip-text text-transparent'>14+</div>
-          <p className='text-3xl'>Blockchains</p>
+          <div className='font-black text-6xl bg-gradient-to-r from-lime-300 to-green-400 bg-clip-text text-transparent'>2+</div>
+          <p className='text-3xl'>Bots & Dapps</p>
         </div>
 
 
@@ -64,25 +64,25 @@ function App() {
             <p className='text-base md:text-xl xl:text-xl opacity-60  mt-6 pb-12 md:pb-24'>
               Invest with a single asset deposit and earn from pool transfer fees, easy and fast.
             </p>
-            <div className='flex flex-col gap-3 md:gap-8 mt-12 text-left'>
+            <div className='flex flex-col gap-3 md:gap-8 text-left'>
 
               <div className="flex flex-col md:flex-col xl:flex-row gap-3 md:gap-8 overflow-hidden">
 
-                <div className="w-full md:w-full xl:w-1/2 p-4 md:p-12 rounded-xl bg-neutral-100/5 border border-neutral-800/10 text-neutral-800 relative overflow-hidden bg-neutral-300/20">
+                <div className="w-full md:w-full xl:w-1/2 p-4 md:p-12 rounded-xl border border-neutral-800/10 text-white relative overflow-hidden bg-neutral-900/50">
                   <div className='w-12 h-12 font-bold text-center p-3 rounded-full bg-neutral-950/10 mb-6 border border-neutral-600'>1</div>
                   <h3 className='font-bold text-xl'>Pooly</h3>
                   <p className='text-base md:text-xl mt-3 opacity-60 w-full md:w-1/2'>Browse various investment pools and select the best one for your goals.</p>
-                  <button className="bg-neutral-900 text-white font-bold px-6 py-3 rounded-2xl mt-3">Contact us</button>
+                  <button className="bg-gradient-to-r from-lime-300 to-green-400 text-neutral-900 font-bold px-6 py-3 rounded-xl mt-6">Visit Product</button>
 
                 </div>
 
-                <div className="w-full md:w-full xl:w-1/2 p-4 md:p-12 rounded-xl bg-neutral-100/5 border border-neutral-800/10  text-neutral-800 relative overflow-hidden bg-neutral-300/20">
+                <div className="w-full md:w-full xl:w-1/2 p-4 md:p-12 rounded-xl border border-neutral-800/10  text-white relative overflow-hidden bg-neutral-900/50">
 
                 
                     <div className='w-12 h-12 font-bold text-center p-3 rounded-full bg-neutral-950/10 mb-6 border border-neutral-600'>2</div>
-                    <h3 className='font-bold text-xl'>Swappy</h3>
+                    <h3 className='font-bold text-xl'>Swapy</h3>
                     <p className='text-base md:text-xl mt-3 pb-4 opacity-60 w-full md:w-3/4'>Enter the only the dollar amount and your currency and confirm your investment.</p>
-                    <button className="bg-neutral-900 text-white font-bold px-6 py-3 rounded-2xl">Contact us</button>
+                    <button className="bg-gradient-to-r from-lime-300 to-green-400 text-neutral-900 font-bold px-6 py-3 rounded-xl mt-6">Visit Product</button>
 
                 </div>
 
@@ -90,28 +90,28 @@ function App() {
 
               <div className="flex flex-col md:flex-col xl:flex-row gap-3 md:gap-8">
                 
-              <div className="w-full md:w-full xl:w-1/3 p-4 md:p-12 rounded-xl bg-neutral-100/5 border border-neutral-800/10  text-neutral-800 relative overflow-hidden bg-neutral-300/20">
+              <div className="w-full md:w-full xl:w-1/3 p-4 md:p-12 rounded-xl bg-neutral-100/5 border border-neutral-800/10  text-white relative overflow-hidden bg-neutral-900/50">
 
                   <div className='w-12 h-12 font-bold text-center p-3 rounded-full bg-neutral-950/10 mb-6 border border-neutral-600'>3</div>
                   <h3 className='font-bold text-xl'>Looty</h3>
                   <p className='text-base md:text-xl mt-3 pb-4 opacity-60 w-full '>Confirm the transaction through your wallet for security.</p>
-                  <button className="bg-neutral-900 text-white font-bold px-6 py-3 rounded-2xl">Contact us</button>
+                  <button className="bg-gradient-to-r from-lime-300 to-green-400 text-neutral-900 font-bold px-6 py-3 rounded-xl mt-6">Visit Product</button>
 
                 </div>
 
-                <div className="w-full md:w-full xl:w-1/3 p-4 md:p-12 rounded-xl bg-neutral-100/5 border border-neutral-800/10 text-neutral-800 relative overflow-hidden bg-neutral-300/20">
+                <div className="w-full md:w-full xl:w-1/3 p-4 md:p-12 rounded-xl bg-neutral-100/5 border border-neutral-800/10 text-white relative overflow-hidden bg-neutral-900/50">
                   <div className='w-12 h-12 font-bold text-center p-3 rounded-full bg-neutral-950/10 mb-6 border border-neutral-600'>4</div>
                   <h3 className='font-bold text-xl'>Adsy</h3>
                   <p className='text-base md:text-xl mt-3 opacity-60 w-full'>Monitor the performance of your investments in real-time through your dashboard.</p>
-                  <button className="bg-neutral-900 text-white font-bold px-6 py-3 rounded-2xl mt-3">Contact us</button>
+                  <button className="bg-gradient-to-r from-lime-300 to-green-400 text-neutral-900 font-bold px-6 py-3 rounded-xl mt-6">Visit Product</button>
 
                 </div>
 
-                <div className="w-full md:w-full xl:w-1/3 p-4 md:p-12 rounded-xl bg-neutral-100/5 border border-neutral-800/10 text-neutral-800 relative overflow-hidden bg-neutral-300/20">
+                <div className="w-full md:w-full xl:w-1/3 p-4 md:p-12 rounded-xl bg-neutral-100/5 border border-neutral-800/10 text-white relative overflow-hidden bg-neutral-900/50">
                   <div className='w-12 h-12 font-bold text-center p-3 rounded-full bg-neutral-950/10 mb-6 border border-neutral-600'>5</div>
                   <h3 className='font-bold text-xl'>Posty</h3>
                   <p className='text-base md:text-xl mt-3 opacity-60 w-full '>Monitor the performance of your investments in real-time through your dashboard.</p>
-                  <button className="bg-neutral-900 text-white font-bold px-6 py-3 rounded-2xl mt-3">Contact us</button>
+                  <button className="bg-gradient-to-r from-lime-300 to-green-400 text-neutral-900 font-bold px-6 py-3 rounded-xl mt-6">Visit Product</button>
 
                 </div>
                
