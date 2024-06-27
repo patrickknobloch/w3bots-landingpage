@@ -7,17 +7,16 @@ const Footer: React.FC = () => {
     <div className="container px-12 py-12 max-w-screen-xl mx-auto relative md:h-screen flex flex-col gap-12 md:flex-row items-center">
         
         <div className="text-center flex flex-col gap-4">
-            <h1 className="font-black text-3xl xl:text-8xl leading-snug relative z-30">
-            We build Dapps and Bots for your projects!
+            <h1 className="font-black text-4xl xl:text-8xl leading-snug relative z-30">
+            We build and develop dapps and bots!
             </h1>
             <p className='mt-3 md:mt-12 text-base xl:text-xl relative opacity-60 z-30'>
-            We build Dapps and Bots for your idea or company - contact us now!
+            We build and develop dapps and bots that connect, simplify ways to increase the adoption of web3.            
             </p>
-            <div className='flex flex-col xl:flex-row gap-3 md:gap-8 mx-auto w-fit mt-6 md:mt-12 relative z-30'>
-            <button className='py-3 px-6 text-base font-bold bg-white text-neutral-800 rounded-xl'>Open on WebApp</button>
-            <button className='py-3 px-6 text-base font-bold bg-white text-neutral-800 rounded-xl'>Open in Telegram</button>
-
-            </div>
+            <div className='mt-12 flex flex-col md:flex-col xl:flex-col gap-4 md:gap-8 mx-auto relative z-30'>
+          <button className='py-3 px-6 text-2xl font-bold bg-neutral-900 rounded-xl bg-gradient-to-r from-lime-300 to-green-400 text-neutral-900'>Request & Contact</button>
+          <small className='md:-mt-6 text-white'>Open our Request Bot on Telegram</small>
+        </div>
         </div>
        
         <div className="flex flex-col relative mt-24 md:absolute left-0 bottom-0 w-full ">
