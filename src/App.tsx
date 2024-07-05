@@ -4,6 +4,7 @@ import TetherUsdtLogo from './lib/assets/tether.svg'; // Stelle sicher, dass der
 import FAQ from './lib/components/FAQ';
 import Footer from './lib/components/Footer';
 import { TbSquareRoundedPlus } from 'react-icons/tb';
+import Header from './lib/components/Header';
 
 function App() {
   return (
@@ -14,24 +15,7 @@ function App() {
       <div className='w-full h-screen fixed z-0 top-0 left-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] '>
       </div>
 
-      <header id="start" className="bg-gradient-to-r from-lime-300 to-green-400 text-white text-center p-6 py-16 pt-32 md:p-20 xl:p-24 xl:py-48  rounded-3xl flex flex-col justify-center gap-12 mt-4 relative overflow-hidden bg-neutral-900/50 ">
-      <img className="w-full h-screen absolute -top-48 md:-top-1/3 left-0 z-10 opacity-30 md:opacity-30" src="./assets/dotpattern.svg" alt=""/>
-
-        <p className='uppercase text-center text-base md:text-xl xl:text-xl opacity-60 -mt-6 md:mt-0 relative z-30 text-neutral-900'>
-          Build for more adaption
-        </p>
-        <h1 className="-mt-8 font-black text-4xl md:text-6xl xl:text-9xl md:leading-relaxed relative z-30 text-neutral-900">
-        Simplify with our  <br></br>dapps and bots
-        </h1>
-        <p className='text-center text-base md:text-xl xl:text-xl -mt-6 md:mt-0 relative z-30 text-neutral-900'>
-        Browse various investment pools and select the best one for your goals
-                </p>
-        <div className='flex flex-col md:flex-col xl:flex-col gap-4 md:gap-8 mx-auto relative z-30'>
-          <button className='py-3 px-6 text-2xl font-bold bg-neutral-900 text-white rounded-xl '>Request & Contact</button>
-          <small className='md:-mt-6 text-neutral-900'>Open our Request Bot on Telegram</small>
-        </div>
-       
-      </header>
+      <Header></Header>
 
       <section className='flex flex-col md:flex-row gap-3 md:gap-8 mt-8 text-white bg-gradient-to-r from-lime-300 to-green-400 p-8 rounded-3xl'>
           <div className='flex flex-col text-center w-full border rounded-xl border-neutral-800/20 text-neutral-900 py-6 md:py-12'>
@@ -117,10 +101,24 @@ function App() {
             <div className='font-black text-2xl md:text-4xl '>Faster</div>
           </div>
           <div className='flex flex-col text-center w-full border rounded-xl border-neutral-800/80 py-12'>
-            <div className='font-black text-2xl md:text-4xl '>Understandable</div>
+            <div className='font-black text-2xl md:text-4xl '>Innovative</div>
           </div>
       </section>
     
+      <section id="vision-1" className="bg-gradient-to-r from-lime-300 to-green-400 text-white text-center p-6 py-8 pt-32 md:p-20 xl:p-24 xl:py-24  rounded-3xl flex flex-col justify-center gap-12 mt-4 relative overflow-hidden bg-neutral-900/50 ">
+      <img className="w-full h-screen absolute -top-48 md:-top-1/3 left-0 z-10 opacity-30 md:opacity-30" src="./assets/dotpattern.svg" alt=""/>
+
+       
+        <p className='text-center text-base md:text-xl xl:text-xl -mt-6 md:mt-0 relative z-30 text-neutral-900'>
+        At w3bots, we specialize in creating sophisticated bots and tools for Telegram, integrating blockchain technology and gaming elements to enhance user engagement and functionality. Our products are designed to seamlessly blend into the Telegram ecosystem, providing powerful capabilities to users and community- and project managers alike.
+        </p>
+        <p className='text-center text-base md:text-xl xl:text-xl mt-3 md:mt-0 relative z-30 text-neutral-900 font-bold'>
+        We are committed to driving web3 adoption through cutting-edge technology and seamless integration.  Our goal is to make blockchain accessible and understandable for everyone.
+        </p>
+        
+       
+      </section>
+
     </div>
   );
 }

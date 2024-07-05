@@ -8,14 +8,17 @@ const Footer: React.FC = () => {
         
         <div className="text-center flex flex-col gap-4">
             <h1 className="font-black text-4xl xl:text-8xl leading-snug relative z-30">
-            We build and develop dapps and bots!
+            Get in Touch for Custom Solutions
             </h1>
-            <p className='mt-3 md:mt-12 text-base xl:text-xl relative opacity-60 z-30'>
-            We build and develop dapps and bots that connect, simplify ways to increase the adoption of web3.            
+            <p className='mt-3 md:mt-12 text-base xl:text-xl relative opacity-60 z-30 w-full md:w-2/3 mx-auto'>
+            With years of experience and a passion for innovation, we develop custom dApps and bots tailored to your needs. Whether it's blockchain integration, gaming functionalities, community management or engagement, our team is ready to bring your vision to life.           
             </p>
             <div className='mt-12 flex flex-col md:flex-col xl:flex-col gap-4 md:gap-8 mx-auto relative z-30'>
-          <button className='py-3 px-6 text-2xl font-bold bg-neutral-900 rounded-xl bg-gradient-to-r from-lime-300 to-green-400 text-neutral-900'>Request & Contact</button>
-          <small className='md:-mt-6 text-white'>Open our Request Bot on Telegram</small>
+            <div className='flex flex-col md:flex-row gap-4'>
+                <button className='py-3 px-6 text-2xl font-bold bg-neutral-900 rounded-xl bg-gradient-to-r from-lime-300 to-green-400 text-neutral-900'>Request by Bot</button>
+                <button className='py-3 px-6 text-2xl font-bold bg-neutral-900 rounded-xl bg-gradient-to-r from-lime-300 to-green-400 text-neutral-900'>Request by Form</button>
+            </div>
+            <small className='md:-mt-6 text-white'>Open our Request Bot on Telegram</small>
         </div>
         </div>
        
