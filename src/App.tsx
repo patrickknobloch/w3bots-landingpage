@@ -36,11 +36,11 @@ function App() {
           </div>
       </section>
 
-        <section id="bots" className="bg-neutral-400/5 border  rounded-xl border-neutral-800  text-white p-4 md:p-16 mt-8 flex text-center pb-3 md:pb-16 py-8 md:py-16 backdrop-blur-xs relative z-30 overflow-hidden">
+        <section id="bots" className="bg-neutral-400/5 border backdrop-blur-md rounded-xl border-neutral-800  text-white p-4 md:p-16 mt-8 flex text-center pb-3 md:pb-16 py-8 md:py-16 backdrop-blur-xs relative z-30 overflow-hidden">
 
           <div className="w-full text-white">
 
-            <h2 className="font-black text-4xl md:text-5xl xl:text-8xl pt-10 pb-4 md:pt-20 bg-gradient-to-r from-lime-300 to-green-400 bg-clip-text text-transparent">Bots for Community Manager and Users</h2>
+            <h2 className="font-black text-4xl md:text-5xl xl:text-8xl pt-10 pb-4 md:pt-20 bg-gradient-to-r from-lime-300 to-green-400 bg-clip-text text-transparent">Bots and D’Apps <br></br>with a ease of use </h2>
             <p className='text-base md:text-xl xl:text-xl opacity-60  mt-6 pb-12 md:pb-24'>
             Our bots are designed to be easy for users to use and to reduce the amount of work required by simplifying automated processes.
             </p>
@@ -51,7 +51,7 @@ function App() {
                 <div className="w-full md:w-full xl:w-1/2 p-4 md:p-12 rounded-xl border border-neutral-800 text-white relative overflow-hidden bg-neutral-900/50">
                   <div className='w-12 h-12 font-bold text-center p-3 rounded-full bg-neutral-950/10 mb-6 border border-neutral-600'>1</div>
                   <h3 className='font-bold text-xl'>Pooly</h3>
-                  <p className='text-base md:text-xl mt-3 opacity-60 w-full md:w-3/4'>Pooly simplifies investing in liquidity pools by allowing single asset deposits, eliminating the need to manually swap tokens for the pool.</p>
+                  <p className='text-base md:text-xl mt-3 opacity-60 w-full md:w-3/4'>Pooly makes liquidity pool investments straightforward with single-asset deposits, eliminating the need for manual token swaps.</p>
                   <button className="bg-gradient-to-r from-lime-300 to-green-400 text-neutral-900 font-bold px-6 py-3 rounded-xl mt-6">Visit Product</button>
 
                 </div>
@@ -59,7 +59,7 @@ function App() {
                 <div className="w-full md:w-full xl:w-1/2 p-4 md:p-12 rounded-xl border border-neutral-800  text-white relative overflow-hidden bg-neutral-900/50">
                     <div className='w-12 h-12 font-bold text-center p-3 rounded-full bg-neutral-950/10 mb-6 border border-neutral-600'>2</div>
                     <h3 className='font-bold text-xl'>Swapy</h3>
-                    <p className='text-base md:text-xl mt-3 pb-4 opacity-60 w-full md:w-3/4'>Swapy is a DEX aggregator that simplifies swaps by combining multiple providers into a single access point, eliminating the need to use multiple decentralized exchanges.</p>
+                    <p className='text-base md:text-xl mt-3 pb-4 opacity-60 w-full md:w-3/4'>Swapy, a DEX aggregator, simplifies token swaps by integrating multiple providers into a single platform.</p>
                     <button className="bg-gradient-to-r from-lime-300 to-green-400 text-neutral-900 font-bold px-6 py-3 rounded-xl mt-6">Visit Product</button>
 
                 </div>
@@ -72,7 +72,7 @@ function App() {
 
                     <div className='w-12 h-12 font-bold text-center p-3 rounded-full bg-neutral-950/10 mb-6 border border-neutral-600'>3</div>
                     <h3 className='font-bold text-xl'>Launchy</h3>
-                    <p className='text-base md:text-xl mt-3 pb-4 opacity-60 w-full '>Launchy enables the creation of tokens on the TON Blockchain and the setup of associated liquidity pools with user-selected DEX providers.</p>
+                    <p className='text-base md:text-xl mt-3 pb-4 opacity-60 w-full '>Launchy enables the creation of tokens on the TON Blockchain and the setup of liquidity pools with your chosen DEX providers.</p>
                     <button className="bg-gradient-to-r from-lime-300 to-green-400 text-neutral-900 font-bold px-6 py-3 rounded-xl mt-6">Visit Product</button>
 
                 </div>

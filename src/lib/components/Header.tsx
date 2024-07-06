@@ -40,7 +40,7 @@ const Header = () => {
   };
 
   return (
-    <header id="start" className="bg-gradient-to-r from-lime-300 to-green-400 text-white text-center p-6 py-16 pt-32 md:p-20 xl:p-24 xl:py-48 rounded-3xl flex flex-col justify-center gap-12 mt-4 relative overflow-hidden bg-neutral-900/50">
+    <header id="start" className="bg-gradient-to-r from-lime-300 to-green-400 text-white text-center p-6 py-16 pt-32 md:p-20 xl:p-24 xl:py-48 rounded-3xl flex flex-col justify-center gap-12 mt-4 relative z-50 overflow-hidden bg-neutral-900/50">
       <img className="w-full h-screen absolute -top-48 md:-top-1/3 left-0 z-10 opacity-30 md:opacity-30" src="./assets/dotpattern.svg" alt="" />
 
       <div className="relative z-30 text-neutral-900">
@@ -50,7 +50,7 @@ const Header = () => {
         <h1 className="mt-8 font-black text-4xl md:text-6xl xl:text-9xl md:leading-relaxed">
           {slides[currentSlide].subtitle}
         </h1>
-        <p className='text-center text-base md:text-xl xl:text-xl -mt-6 md:mt-6 w-full md:w-2/3 mx-auto'>
+        <p className='text-center text-base md:text-xl xl:text-xl mt-6 md:mt-6 w-full md:w-2/3 mx-auto'>
           {slides[currentSlide].description}
         </p>
       </div>
