@@ -10,7 +10,7 @@ const Navigation: React.FC = () => {
       </div>
 
       {/* Navigation in the center */}
-      <div className="flex items-center py-4 justify-center hidden xl:flex text-neutral-900">
+      <div className="flex items-center py-4 justify-center xl:flex text-neutral-900">
         <a href="#start" className="px-4 py-2 rounded-md text-xl border border-transparent hover:border hover:border-neutral-100/10">Start</a>
         <a href="#bots" className="px-4 py-2 rounded-md text-xl border border-transparent hover:border hover:border-neutral-100/10">Bots & Dapps</a>
         <a href="#vision" className="px-4 py-2 rounded-md text-xl border border-transparent hover:border hover:border-neutral-100/10">The Vision</a>
