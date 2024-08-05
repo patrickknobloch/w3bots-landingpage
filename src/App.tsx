@@ -17,7 +17,7 @@ function App() {
 
       <Header></Header>
 
-      <section className='flex flex-col md:flex-row gap-3 md:gap-8 mt-8 text-white bg-gradient-to-r from-lime-300 to-green-400 p-8 rounded-3xl'>
+      <section className='flex flex-col md:flex-row gap-3 md:gap-8 mt-8 text-white bg-gradient-to-r from-lime-300 to-green-400 p-8 rounded-3xl hidden'>
           <div className='flex flex-col text-center w-full border rounded-xl border-neutral-800/20 text-neutral-900 py-6 md:py-12'>
             <div className='font-black text-4xl md:text-6xl '>15K+</div>
             <p className='text-sm md:text-2xl opacity-70 font-bold'>Users</p>
@@ -51,7 +51,7 @@ function App() {
                 <div className="w-full md:w-full xl:w-1/2 p-4 md:p-12 rounded-xl border border-neutral-800 text-white relative overflow-hidden bg-neutral-900/50">
                   <div className='w-12 h-12 font-bold text-center p-3 rounded-full bg-neutral-950/10 mb-6 border border-neutral-600'>1</div>
                   <h3 className='font-bold text-xl'>Pooly</h3>
-                  <p className='text-base md:text-xl mt-3 opacity-60 w-full md:w-3/4'>Pooly makes liquidity pool investments straightforward with single-asset deposits, eliminating the need for manual token swaps.</p>
+                  <p className='text-base md:text-xl mt-3 opacity-60 w-full md:w-3/4'>Pooly simplified liquidity pool investments straightforward with single-asset deposits, eliminating the need for manual token swaps.</p>
                   <button className="bg-gradient-to-r from-lime-300 to-green-400 text-neutral-900 font-bold px-6 py-3 rounded-xl mt-6">Visit Product</button>
 
                 </div>
