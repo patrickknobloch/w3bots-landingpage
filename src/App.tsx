@@ -58,7 +58,7 @@ function App() {
 
                 <div className="w-full md:w-full xl:w-1/2 p-4 md:p-12 rounded-xl border border-neutral-800  text-white relative overflow-hidden bg-neutral-900/50">
                     <div className='w-12 h-12 font-bold text-center p-3 rounded-full bg-neutral-950/10 mb-6 border border-neutral-600'>2</div>
-                    <h3 className='font-bold text-xl'>Swapy</h3>
+                    <h3 className='font-bold text-xl'>Swaply</h3>
                     <p className='text-base md:text-xl mt-3 pb-4 opacity-60 w-full md:w-3/4'>Swapy, a DEX aggregator, simplifies token swaps by integrating multiple providers into a single platform.</p>
                     <button className="bg-gradient-to-r from-lime-300 to-green-400 text-neutral-900 font-bold px-6 py-3 rounded-xl mt-6">Visit Product</button>
 
