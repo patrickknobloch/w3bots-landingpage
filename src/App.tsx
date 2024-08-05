@@ -98,10 +98,10 @@ function App() {
             <div className='font-black text-2xl md:text-4xl '>Simple</div>
           </div>
           <div className='flex flex-col text-center w-full border rounded-xl border-neutral-800/80 py-12'>
-            <div className='font-black text-2xl md:text-4xl '>Faster</div>
+            <div className='font-black text-2xl md:text-4xl '>Fast</div>
           </div>
           <div className='flex flex-col text-center w-full border rounded-xl border-neutral-800/80 py-12'>
-            <div className='font-black text-2xl md:text-4xl '>Innovative</div>
+            <div className='font-black text-2xl md:text-4xl '>Trusted</div>
           </div>
       </section>
     
